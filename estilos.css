@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(143,189,193,0.6774193548387097) 35%, rgba(0,212,255,1) 100%);}
+
+#contenedor{
+    width: 960px;
+    margin: auto;
+    margin-top: 20px;
+    /* background-color: rgb(75, 106, 114); */
+}
+
+header{
+    color: aliceblue;
+    height: 100px;
+    width: auto;
+    background-color: rgb(46, 115, 172);
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    
+}
+
+header h1 {
+    font-size: 50px;
+    /* CENTRAR HORIZONTALMENTE  */
+    text-align: center;
+    /* CENTRAR VERTICALMENTE */
+    line-height: 100px;
+}
+
+nav{
+    background-color: blueviolet;
+    height: 60px;
+
+}
+
+nav h2{
+    font-size: 40px;
+    /* CENTRAR HORIZONTALMENTE  */
+    text-align: center;
+    /* CENTRAR VERTICALMENTE */
+    line-height: 60px;
+}
+#contenido{
+    background-color: rgb(18, 116, 83);
+    width: 700px;
+    height: 500px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#contenido h2{
+    font-size: 40px;
+    /* CENTRAR HORIZONTALMENTE  */
+    text-align: center;
+    /* CENTRAR VERTICALMENTE */
+    line-height: 500px;
+
+}
+
+aside{
+    width: 250px;
+    height: 500px;
+    background-color: coral;
+    float: right;
+    margin-top: 10px;
+}
+
+aside h2{
+    font-size: 40px;
+    /* CENTRAR HORIZONTALMENTE  */
+    text-align: center;
+    /* CENTRAR VERTICALMENTE */
+    line-height: 500px;
+}
+
+footer{
+    background-color: rgb(10, 13, 58);
+    clear: both;
+    height: 50px;
+}
+
+footer h3{
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    color: aliceblue;
+}
